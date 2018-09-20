@@ -1,0 +1,74 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <!--main-->
+    <div class="widget-cont" id="widget">
+        <!--left panel-->
+        <div class="left-cont" id="left-part">
+            <!--upper part-->
+            <div><img id="profile-image" src="/img/profile.jpg"></div>
+            <!--lower part-->
+            <div>
+                <button onclick="toggleFollow()" id="button-follow">FOLLOW</button>
+                <button onclick="toggleFollow()" id="button-following">
+                    <span class="following">FOLLOWING</span>
+                    <span class="following-on-hover"></span>
+                </button>
+            </div>
+        </div>
+
+        <!--right panel-->
+        <div class="right-cont" id="right-part">
+            <!--upper part-->
+            <div class="text-cont">
+                <!--account name-->
+                <div class="name-cont" id="name">
+                    <div id="profile-name">humansofny</div>
+                    <div><img id="approuved-image" src="/img/approuved.png"></div>
+                </div>
+                <!--sub profile name-->
+                <div id="profile-name2">Humans of New York</div>
+                <!--profile description-->
+                <div id="description">The latest stories from HONY, featuring interviews with thousands of people on
+                    the streets of New York City.</div>
+
+            </div>
+            <!--lower part-->
+            <div class="stat-cont">
+                <div class="info-cont">
+                    <!--posts-->
+                    <div class="info-cont2">
+                        <div class="info-number">4,219</div>
+                        <div class="info-category">Posts</div>
+                    </div>
+                    <!--likes-->
+                    <div class="info-cont2">
+                        <div class="info-number">32.5M</div>
+                        <div class="info-category">Likes</div>
+                    </div>
+                    <!--comments-->
+                    <div class="info-cont2">
+                        <div class="info-number">6.5M</div>
+                        <div class="info-category">Comments</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--scripts-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
