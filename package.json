@@ -1,0 +1,23 @@
+{
+  "name": "labo1_tweb_1819",
+  "version": "1.0.0",
+  "description": "html page at https://labo1tweb1819-fufaztwpcw.now.sh",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivierKopp/labo1_TWEB_1819.git"
+  },
+  "author": "Olivier Kopp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olivierKopp/labo1_TWEB_1819/issues"
+  },
+  "homepage": "https://github.com/olivierKopp/labo1_TWEB_1819#readme"
+}
