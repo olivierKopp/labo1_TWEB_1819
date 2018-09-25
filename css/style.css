@@ -1,5 +1,5 @@
 :root {
-    --widget_width: 1000px;
+    --widget_width: 500px;
     --widget_height: calc(var(--widget_width) / 2.5);
     --global-border-radius: calc(var(--widget_width) / 100);
     --margin: calc(var(--widget_width) / 25);
